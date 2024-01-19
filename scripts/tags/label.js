@@ -9,7 +9,7 @@ const label = (args) => {
 
   !text && hexo.log.warn('[Fluid] Label text must be defined!');
 
-  return `<span class="label label-${classes.trim()}">${text}</span>`;
+  return `<span class="label label-${classes.trim()}" style="font-size: 18px !important; color: #ff3f3f !important; font-weight:bold !important;">${text}</span>`;
 };
 
 // {% label class @text %}
